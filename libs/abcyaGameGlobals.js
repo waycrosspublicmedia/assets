@@ -3,7 +3,7 @@
 
         function init() {
             var host = window.location.hostname;
-            var domain = host === 'www.diesmos.com' || host === 'diesmos.com' ? 'ixl.com' : 'diesmos.com';
+            var domain = host === 'diesmos.com';
             document.domain = domain;
             abcyaWindow = window.parent;
             abcyaWindow.abcya = abcyaWindow.abcya || {};
