@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's individual tag.-->
+
+<!-- <Node Attributes> -->
+<!-- id is not Optional. It tells flash which text field to change. -->
+<!-- fontScale is Optional. It allows you to customize the size of the font used in this particular field. 1 is normal. 2 is double size. .5 is half size. Defaults to 1.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the default font (specified by defaultFont).-->
+<!-- offsetX is Optional. It allows you to move the text field a certain number of pixels on the X axis. Leave it out or use 0 if you don't want to move the text. -->
+<!-- offsetY is Optional. It allows you to move the text field a certain number of pixels on the Y axis. Leave it out or use 0 if you don't want to move the text.--> 
+
+<strings defaultFont="Basic">
+	<!--Basics-->
+	<string id="loading"				fontName="spongeboy_glow"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[LOADING]]></string>
+	<string id="title_1"				fontName="spongeboy"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Marble]]></string>
+	<string id="title_2"				fontName="spongeboy"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Bash]]></string>
+	<string id="tap_anywhere"			fontName="spongeboy_glow"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[Tap Anywhere to Play]]></string>
+	<string id="click_anywhere"			fontName="spongeboy_glow"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[Click Anywhere to Play]]></string>
+	<string id="orientation_landscape"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Please flip back to Landscape mode.]]></string>
+	<!--Game Buttons-->
+	<string id="next"					fontName="spongeboy"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[NEXT]]></string>
+	<string id="back"					fontName="spongeboy"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[BACK]]></string>
+	<string id="exit"					fontName="spongeboy"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[EXIT]]></string>
+	<string id="easy"					fontName="spongeboy"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[EASY]]></string>
+	<string id="normal"					fontName="spongeboy"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[NORMAL]]></string>
+	<string id="hard"					fontName="spongeboy"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[HARD!]]></string>
+	<string id="main_menu"				fontName="spongeboy"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[MAIN MENU]]></string>	
+	<string id="new_game"				fontName="spongeboy"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[NEW GAME]]></string>
+	<string id="new_game_erase"			fontName="spongeboy"	fontScale=".24"	offsetX="0" offsetY="0"><![CDATA[NEW GAME (ERASE SAVED))]]></string>
+	<string id="resume_game"			fontName="spongeboy"	fontScale=".24"	offsetX="0" offsetY="0"><![CDATA[RESUME GAME]]></string>
+	<string id="skip"					fontName="spongeboy"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[SKIP]]></string>
+	<!--Quit-->
+	<string id="quit_confirm_header"	fontName="spongeboy"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Are you sure you want to quit?]]></string>
+	<string id="yes"					fontName="spongeboy"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[YES]]></string>
+	<string id="no"						fontName="spongeboy"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[NO]]></string>
+	<!--Gameplay-->
+	<string id="level"					fontName="spongeboy"	fontScale="0.2"	offsetX="0" offsetY="0"><![CDATA[LEVEL]]></string>
+	<string id="score"					fontName="spongeboy"	fontScale="0.2"	offsetX="0" offsetY="0"><![CDATA[SCORE]]></string>	
+	<string id="time"					fontName="spongeboy"	fontScale="0.2"	offsetX="0" offsetY="0"><![CDATA[TIME]]></string>	
+	<string id="tutorial"				fontName="spongeboy"	fontScale="0.25"	offsetX="0" offsetY="0"><![CDATA[TUTORIAL]]></string>	
+	<string id="game_over"				fontName="spongeboy_glow"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Game Over]]></string>	
+	<!-- Copy/Body -->
+	<string id="tutorial"				fontName="spongeboy_glow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[TUTORIAL]]></string>
+	<string id="help_1a_mobile"			fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Touch a marble and drag a line to link sets of 3 or more!]]></string>
+	<string id="help_1a_desktop"		fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Click a marble and drag a line to link sets of 3 or more!]]></string>
+	<string id="help_2a"				fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Drag a line from rainbows to a marble and remove all of that type!]]></string>
+	<string id="help_2b_mobile"			fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Tap jellyfish! Z-Zap!]]></string>
+	<string id="help_2b_desktop"		fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Click jellyfish! Z-Zap!]]></string>
+	<string id="help_3a_mobile"			fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Tap bubbles for bonus points!]]></string>
+	<string id="help_3a_desktop"		fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Click bubbles for bonus points!]]></string>
+	<string id="help_3b_mobile"			fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Tap enough bubbles and get a 'clear all' button! ]]></string>
+	<string id="help_3b_desktop"		fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Click enough bubbles and get a 'clear all' button! ]]></string>
+	<string id="help_4a"				fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[You can't link rocks!]]></string>
+	<string id="help_4b_mobile"				fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Don't tap the skulls!]]></string>
+	<string id="help_4b_desktop"				fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Don't click the skulls!]]></string>
+	<string id="help_5a"				fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[If you're lucky, a MAGICAL COMET will appear!]]></string>
+	<string id="help_5b"				fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[It will remove all the marbles it touches!]]></string>
+	<string id="help_6a"				fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[The bottom will light up to show your progress to the next level]]></string>
+	<string id="help_7a"				fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Match 6 of the same main character to get a bonus!]]></string>
+	<string id="help_7b"				fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Make matches with the bonus character to keep the bonus]]></string>
+	<string id="help_8a"				fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Up your multiplier by matching 6 more of the bonus characters!]]></string>
+	<string id="start1"					fontName="spongeboy_glow"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[GET READY!]]></string>
+	<string id="start2"					fontName="spongeboy_glow"	fontScale="0.8"	offsetX="0" offsetY="0"><![CDATA[GO!]]></string>
+	<string id="end1"					fontName="spongeboy_glow"	fontScale="0.8"	offsetX="0" offsetY="0"><![CDATA[LEVEL COMPLETE!]]></string>
+	<string id="win1"					fontName="spongeboy_glow"	fontScale="0.8"	offsetX="0" offsetY="0"><![CDATA[YOU WIN!!]]></string>
+	<string id="bonus_spongebob"		fontName="spongeboy"	fontScale="0.3"	offsetX="0" offsetY="0"><![CDATA[SPONGEBOB BONUS]]></string>
+	<string id="bonus_plankton"			fontName="spongeboy"	fontScale="0.3"	offsetX="0" offsetY="0"><![CDATA[PLANKTON BONUS]]></string>
+	<string id="bonus_squidward"		fontName="spongeboy"	fontScale="0.3"	offsetX="0" offsetY="0"><![CDATA[SQUIDWARD BONUS]]></string>
+	<string id="bonus_sandy"			fontName="spongeboy"	fontScale="0.3"	offsetX="0" offsetY="0"><![CDATA[SANDY BONUS]]></string>
+	<string id="bonus_gary"				fontName="spongeboy"	fontScale="0.3"	offsetX="0" offsetY="0"><![CDATA[GARY BONUS]]></string>
+	<string id="bonus_patrick"			fontName="spongeboy"	fontScale="0.3"	offsetX="0" offsetY="0"><![CDATA[PATRICK BONUS]]></string>
+	<string id="bonus_multiplier"		fontName="spongeboy_yellow"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[x]]></string>
+	<string id="level_1"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA['Woodin' it Be Nice]]></string>
+	<string id="level_2"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Jellyfish Fields]]></string>
+	<string id="level_3"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Tiki Time]]></string>
+	<string id="level_4"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Kelp Forest]]></string>
+	<string id="level_5"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[The Sunny Pineapple]]></string>
+	<string id="level_6"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[The Hidden Cave]]></string>
+	<string id="level_7"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[I'm Seeing Circles]]></string>
+	<string id="level_8"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[The Flying Dutchman]]></string>
+	<string id="level_9"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[The Knotty Net]]></string>
+	<string id="level_10"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[The Expanding Universe]]></string>
+	<string id="level_11"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Ice is Nice]]></string>
+	<string id="level_12"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[The Gary Constellation]]></string>
+	<string id="level_13"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Return to Jellyfish Fields]]></string>
+	<string id="level_14"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Ooooooh! The Colors!]]></string>
+	<string id="level_15"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Behind Glass]]></string>
+	<string id="level_16"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Dollars and Cents]]></string>
+	<string id="level_17"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Red Metal Shrimp Bus]]></string>
+	<string id="level_18"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[I'm RICH!]]></string>
+	<string id="level_19"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Rock Bottom]]></string>
+	<string id="level_20"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[The Strangest Plants]]></string>
+	<string id="level_21"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Outside the Chum Bucket]]></string>
+	<string id="level_22"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Greenish Lagoon]]></string>
+	<string id="level_23"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Out the Window]]></string>
+	<string id="level_24"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Brick - a - Brack]]></string>
+	<string id="level_25"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[The Dusky Light]]></string>
+	<string id="level_26"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Orange Luau]]></string>
+	<string id="level_27"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Shells of Dreamland]]></string>
+	<string id="level_28"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[The Krusty Krab]]></string>
+	<string id="level_29"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Speckled Petal]]></string>
+	<string id="level_30"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[The Knottier Net]]></string>
+	<string id="level_31"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Afternoon Dream]]></string>
+	<string id="level_32"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Spattered and Sprayed]]></string>
+	<string id="level_33"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[World of CHROME!]]></string>
+	<string id="level_34"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Laughing Tiki's Return]]></string>
+	<string id="level_35"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Sunny Bikini Bottom]]></string>
+	<string id="level_36"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[The Sponge and the Coconut]]></string>
+	<string id="level_37"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[The Locked Box]]></string>
+	<string id="level_38"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Too Fast! Can't Stop!]]></string>
+	<string id="level_39"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Frantic Blue]]></string>
+	<string id="level_40"				fontName="spongeboy_yellow"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Broadway Bamboo Boogie]]></string>		
+</strings>

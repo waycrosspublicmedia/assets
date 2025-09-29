@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's individual tag.-->
+
+<!-- <Node Attributes> -->
+<!-- id is not Optional. It tells flash which text field to change. -->
+<!-- fontScale is Optional. It allows you to customize the size of the font used in this particular field. 1 is normal. 2 is double size. .5 is half size. Defaults to 1.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the default font (specified by defaultFont).-->
+<!-- offsetX is Optional. It allows you to move the text field a certain number of pixels on the X axis. Leave it out or use 0 if you don't want to move the text. -->
+<!-- offsetY is Optional. It allows you to move the text field a certain number of pixels on the Y axis. Leave it out or use 0 if you don't want to move the text.--> 
+
+<strings defaultFont="Basic">
+	<!--Preloader-->
+	<string id="loading"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Loading]]></string>
+	<!--Basics-->
+	<string id="title"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[MONSTER<br>ISLAND]]></string>
+	<string id="play1"					fontName="button_font"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Episode 1]]></string>
+	<string id="play2"					fontName="button_font"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Episode 2]]></string>
+	<string id="play3"					fontName="button_font"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Episode 3]]></string>
+	<string id="play4"					fontName="button_font"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Episode 4]]></string>
+	<string id="play5"					fontName="button_font"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Episode 5]]></string>
+	
+	<string id="tap_anywhere"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Tap Anywhere to Play]]></string>
+	<string id="click_anywhere"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Click Anywhere to Play]]></string>
+	<string id="tap_anywhere_again"		fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Tap Anywhere to Play Again]]></string>
+	<string id="click_anywhere_again"	fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Click Anywhere to Play Again]]></string>	
+	<string id="play"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Play]]></string>
+	<string id="play_again"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Try Again]]></string>	
+	<string id="how_to_play"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[How to Play]]></string>
+	<string id="next"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Next]]></string>
+	<string id="back"					fontName="button_font"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Back]]></string>
+	<string id="continue"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Continue]]></string>
+	<string id="close"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[close]]></string>
+	<string id="printable"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Printable]]></string>
+	<string id="orientation_landscape"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Please flip back to Landscape mode.]]></string>
+	<!--Code Buttons-->
+	<string id="enter_code"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Enter Code]]></string>
+	<string id="enter_code_header"		fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Enter Code:]]></string>
+	<string id="enter"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Enter]]></string>
+	<string id="invalid_code"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Invalid Code!]]></string>
+	<string id="code_accept"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Code Accepted!]]></string>
+	<!--Help Instructions - This is broken up into 5 sections.-->
+	<string id="help_ep_1_1"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Move the mouse to guide Spongebob.]]></string>
+	<string id="help_ep_1_1_t"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Touch to guide Spongebob.]]></string>
+	<string id="help_ep_1_2"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Avoid the rocks! They will slow you down.]]></string>
+	<string id="help_ep_1_3"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Collect crystals for points!]]></string>
+	<string id="help_ep_1_4"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Click or press space to throw those crystals!]]></string>
+	<string id="help_ep_1_4_t"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Press the eye button to throw those crystals!]]></string>
+	<string id="help_ep_1_5"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Use your crystals to slow down the monster!]]></string>
+	
+	<string id="help_ep_2_1"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Move the mouse to guide the Monster!]]></string>
+	<string id="help_ep_2_1_t"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Touch to guide the Monster!]]></string>
+	<string id="help_ep_2_2"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Click, or press space, to JUMP!]]></string>
+	<string id="help_ep_2_2_t"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Press the eye button to JUMP!]]></string>
+	<string id="help_ep_2_3"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[You can double jump.<br>The power meter keeps track of secondary jump.]]></string>
+	<string id="help_ep_2_4"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[The rocks will limit your speed and jump power!]]></string>
+	<string id="help_ep_2_5"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Collect crystals to unleash a blast<br>that destroys enemies!]]></string>
+	<string id="help_ep_2_6"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Survive until the end!]]></string>
+	
+	<string id="help_ep_3_1"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Move the mouse to guide the Serpent!]]></string>
+	<string id="help_ep_3_1_t"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Touch to guide the Serpent!]]></string>
+	<string id="help_ep_3_2"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Avoid the slowing rocks.]]></string>
+	<string id="help_ep_3_3"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Collect gems to get explode power.]]></string>
+	<string id="help_ep_3_4"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Click or press Space to use your blast!]]></string>
+	<string id="help_ep_3_4_t"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Press the eye button to use your blast!]]></string>
+	
+	<string id="help_ep_4_1"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Move the mouse to guide the Monster!]]></string>
+	<string id="help_ep_4_1_t"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Touch to guide the Monster!]]></string>
+	<string id="help_ep_4_2"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Collect falling gems to regain your health.]]></string>
+	<string id="help_ep_4_3"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[When power is full,<br>use space/click to charge through enemies!]]></string>
+	<string id="help_ep_4_3_t"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[When power is full,<br>use the eye button to charge through enemies!]]></string>
+	<string id="help_ep_4_4"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[The charge will make you inuvlnerable as you use it.]]></string>
+	<string id="help_ep_4_5"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Flatten the snails and avoid the rocks!]]></string>
+	
+	<string id="help_ep_5_1"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Move the mouse to guide the Monster!]]></string>
+	<string id="help_ep_5_1_t"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Touch to guide the Monster!]]></string>
+	<string id="help_ep_5_2"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Click, or press space, to punch through stones.]]></string>
+	<string id="help_ep_5_2_t"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Use the eye button to punch through stones.]]></string>
+	<string id="help_ep_5_3"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Hold down the button to charge a mighty punch.]]></string>
+	<string id="help_ep_5_4"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Then release when fully charged to unleash it!]]></string>
+	<string id="help_ep_5_5"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Use your maneuvers and punches<br>to avoid being crushed.]]></string>
+	<string id="help_ep_5_6"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Collect gems to get a high score!]]></string>
+	
+	<!-- INTRO AND OUTRO DIALOGUE OH THIS IS GOING TO BE A LOT. -->
+	<string id="skip_scene"				fontName="button_font"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Skip]]></string>
+	<string id="play_scene"				fontName="button_font"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Go!]]></string>
+	
+	<string id="cliffhangur"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[TO BE CONTINUED]]></string>
+	<string id="dragonballz"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[PREVIOUSLY...]]></string>	
+	<string id="fin"					fontName="Basic"	fontScale="2"	offsetX="0" offsetY="0"><![CDATA[THE<br>END]]></string>
+	
+	<string id="intro_1_1"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Starring:<br>Spongebob<br>Squarepants!]]></string>
+	<string id="intro_1_2"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[P-Patrick?]]></string>
+	<string id="intro_1_3"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Also Starring:<br>Patrick Star.]]></string>
+	<string id="intro_1_4"				fontName="Basic"	fontScale="0.3"	offsetX="0" offsetY="0"><![CDATA[Haha! This is fun!]]></string>
+	<string id="intro_1_5"				fontName="Basic"	fontScale="0.7"	offsetX="0" offsetY="0"><![CDATA[Oh no! Patrick!!]]></string>
+	<string id="intro_1_6"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[GRRRRRRRRRRR]]></string>
+	<string id="intro_1_7"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Introducing:<br>Monster X!]]></string>
+	
+	<string id="intro_2_1"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Introducing:<br>Island Sandy!]]></string>
+	<string id="intro_2_2"				fontName="Basic"	fontScale="0.7"	offsetX="0" offsetY="0"><![CDATA[Here,<br>use this!]]></string>
+	<string id="intro_2_3"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Now you can control<br>these varmints!]]></string>
+	
+	<string id="intro_3_1"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Good thing I landed on something soft and...]]></string>
+	<string id="intro_3_2"				fontName="Basic"	fontScale="0.7"	offsetX="0" offsetY="0"><![CDATA[Alive!?!]]></string>
+	<string id="intro_3_3"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Introducing:<br>Monster Y!]]></string>
+	<string id="intro_3_4"				fontName="Basic"	fontScale="0.7"	offsetX="0" offsetY="0"><![CDATA[Hang on, Patrick!]]></string>
+	
+	<string id="intro_4_1"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Patrick!]]></string>
+	<string id="intro_4_2"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Hmm, how can I get up that mountain?]]></string>
+	<string id="intro_4_3"				fontName="Basic"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[What was that noise?]]></string>
+	<string id="intro_4_4"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Introducing:<br>Monster Z!]]></string>
+	
+	<string id="intro_5_1"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Alright,<br>another monster!]]></string>
+	<string id="intro_5_2"				fontName="Basic"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[Less alright.<br>RUN!!!]]></string>
+	<string id="intro_5_3"				fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[And introucing:<br>Monster ??!?]]></string>
+	
+	<string id="outro_5_1"				fontName="Basic"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[AAAaAAaAAAAH!!!]]></string>
+	<string id="outro_5_2"				fontName="Basic"	fontScale="0.65"	offsetX="0" offsetY="0"><![CDATA[PATRICK!]]></string>
+	<string id="outro_5_3"				fontName="Basic"	fontScale="0.7"	offsetX="0" offsetY="0"><![CDATA[LOOOK OOOUT!!!]]></string>
+	
+	<!--Game Buttons-->
+	<string id="menu"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Menu]]></string>
+	<string id="back_to_game"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Back to Game]]></string>
+	<string id="help"					fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[How to Play]]></string>
+	<string id="helpText"				fontName="button_font"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Guide yourself using the mouse<br>Press space or click to use your special ability.<br>Survive as long as possible and<br>collect powerups to increase your score!]]></string>
+	<string id="helpText_t"				fontName="button_font"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Guide yourself by touching the screen<br>Press the eye button to use your special ability.<br>Survive as long as possible and<br>collect powerups to increase your score!]]></string>
+	<string id="sound_on"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Sound On]]></string>
+	<string id="sound_off"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Sound Off]]></string>
+	<string id="resume"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Resume]]></string>
+	<!--Quit-->
+	<string id="quit"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Quit]]></string>
+	<string id="quit_confirm_header"	fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[Quit?]]></string>
+	<string id="yes"					fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Yes]]></string>
+	<string id="no"						fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[No]]></string>
+	<!--Gameplay-->
+	<string id="level"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Level]]></string>
+	<string id="score"					fontName="Basic"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Score]]></string>	
+	<string id="paused"					fontName="Basic"	fontScale="0.7"	offsetX="0" offsetY="0"><![CDATA[Paused]]></string>
+	<string id="level_up"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[What Happens Next?]]></string>
+	<string id="game_over"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Game Over]]></string>
+	<string id="tryagain"				fontName="button_font"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Replay]]></string>
+	<string id="nextepisode"				fontName="button_font"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Next Episode]]></string>
+	<string id="goback"				fontName="button_font"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Return to<br>Episode Select]]></string>
+	
+	<string id="questionmark"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[?]]></string>
+	<string id="quit_x"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[x]]></string>		
+	<!--Leaderboard-->
+	<string id="you"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You: ]]></string>
+	<string id="top"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Top]]></string>	
+	<string id="leaderboard"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[High Scores]]></string>
+	<string id="submit_score"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Submit Score]]></string>	
+	<!-- Copy/Body -->
+	<string id="help_copy"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[HELP COPY]]></string>
+	<string id="watch"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Watch 'Show Name' on]]></string>
+	<!-- Debug Text -->			
+	<string id="debugtext"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[THIS TEXT IS LOCALIZED!]]></string>
+	
+	
+	
+</strings>

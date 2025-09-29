@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's individual tag.-->
+
+<!-- <Node Attributes> -->
+<!-- id is not Optional. It tells flash which text field to change. -->
+<!-- fontScale is Optional. It allows you to customize the size of the font used in this particular field. 1 is normal. 2 is double size. .5 is half size. Defaults to 1.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the default font (specified by defaultFont).-->
+<!-- offsetX is Optional. It allows you to move the text field a certain number of pixels on the X axis. Leave it out or use 0 if you don't want to move the text. -->
+<!-- offsetY is Optional. It allows you to move the text field a certain number of pixels on the Y axis. Leave it out or use 0 if you don't want to move the text.--> 
+
+<strings defaultFont="Basic">
+	<!--Preloader-->
+	<string id="loading"				fontName="sb_jungle_stencil"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Loading]]></string>
+	<!--Basics-->
+	<string id="title"					fontName="sb_jungle_stencil"	fontScale="1.5"	offsetX="0" offsetY="0" rotation="0"><![CDATA[CARD /r/nBORED]]></string>
+	<string id="tap_anywhere"			fontName="popup_font_teal"	fontScale=".6"	offsetX="0" offsetY="0" rotation="0"><![CDATA[TAP ANYWHERE TO PLAY]]></string>
+	<string id="click_anywhere"			fontName="popup_font_teal"	fontScale=".6"	offsetX="0" offsetY="0" rotation="0"><![CDATA[CLICK ANYWHERE TO PLAY]]></string>
+	<string id="tap_anywhere_again"		fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Tap Anywhere to Play Again]]></string>
+	<string id="click_anywhere_again"	fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Click Anywhere to Play Again]]></string>	
+	<string id="play"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Play]]></string>
+	<string id="how_to_play"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[How to Play]]></string>
+	<string id="next"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Next]]></string>
+	<string id="back"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Back to Game]]></string>
+	<string id="continue"				fontName="sb_jungle_stencil"	fontScale=".3"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Continue]]></string>
+	<string id="play_again"				fontName="popup_font_teal"	fontScale=".6"	offsetX="0" offsetY="0" rotation="0"><![CDATA[PLAY AGAIN]]></string>	
+	<string id="start_over"				fontName="popup_font_teal"	fontScale=".6"	offsetX="0" offsetY="0" rotation="0"><![CDATA[NEW GAME]]></string>	
+	<string id="close"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[close]]></string>
+	<string id="printable"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Printable]]></string>
+	<string id="orientation_landscape"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Please flip back to Landscape mode.]]></string>
+	<!--Code Buttons-->
+	<string id="enter_code"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Enter Code]]></string>
+	<string id="enter_code_header"		fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Enter Code:]]></string>
+	<string id="enter"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Enter]]></string>
+	<string id="invalid_code"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Invalid Code!]]></string>
+	<string id="code_accept"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Code Accepted!]]></string>
+	<!--Game Buttons-->
+	<string id="menu"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Menu]]></string>
+	<string id="back_to_game"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Back to Game]]></string>
+	<string id="howToPlay"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[How to Play]]></string>
+	<string id="sound_on"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Sound On]]></string>
+	<string id="sound_off"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Sound Off]]></string>
+	<string id="resume"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Resume]]></string>
+	
+	<!--Quit-->
+	<string id="quit"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Quit]]></string>
+	<string id="quit_confirm_header"	fontName="sb_jungle_stencil"	fontScale=".6"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Are you sure \r\nyou want to quit?]]></string>
+	<string id="yes"					fontName="sb_jungle_stencil"	fontScale=".8"	offsetX="0" offsetY="-5" rotation="10"><![CDATA[Yes]]></string>
+	<string id="no"						fontName="sb_jungle_stencil"	fontScale=".8"	offsetX="0" offsetY="-5" rotation="10"><![CDATA[No]]></string>
+	
+	<!--Gameplay-->
+	<string id="score"					fontName="sb_jungle_stencil"	fontScale=".4"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Score]]></string>	
+	<string id="paused"					fontName="sb_jungle_stencil"	fontScale=".9"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Paused]]></string>
+	<string id="level_up"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Level Up]]></string>
+	<string id="game_over"				fontName="sb_jungle_stencil"	fontScale=".7"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Don't give up!]]></string>
+	<string id="congrats_text_1"		fontName="sb_jungle_stencil"	fontScale=".7"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Congratulations! You've won!]]></string>
+	<string id="congrats_text_2"		fontName="sb_jungle_stencil"	fontScale=".7"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Prepare for the next battle!]]></string>
+	<string id="congrats_win"			fontName="sb_jungle_stencil"	fontScale=".5"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Congratulations! /r/nYou've defeated /r/nthe Queen Jelly!]]></string>
+	<string id="help_questionmark"		fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[?]]></string>
+	<string id="quit_x"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[x]]></string>
+	
+	<string id="level"					fontName="sb_jungle_stencil"	fontScale=".6"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Level]]></string>
+	<string id="go"						fontName="sb_jungle_stencil"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Go!]]></string>
+	<string id="health"					fontName="sb_jungle_stencil"	fontScale=".35"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Health]]></string>
+	<string id="energy"					fontName="sb_jungle_stencil"	fontScale=".35"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Energy]]></string>
+	<string id="queen"					fontName="sb_jungle_stencil"	fontScale=".35"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Queen]]></string>
+	
+	<string id="combo"					fontName="popup_font_teal"	fontScale=".35"	offsetX="0" offsetY="0" rotation="0"><![CDATA[ComboX]]></string>
+		
+	<!-- Help Menu -->	
+	<string id="help"					fontName="sb_jungle_stencil"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Help]]></string>
+	<string id="help_text_1"			fontName="sb_jungle_stencil"	fontScale=".3"	offsetX="0" offsetY="0" rotation="0"><![CDATA[ENERGY]]></string>
+	<string id="help_text_2"			fontName="sb_jungle_stencil"	fontScale=".4"	offsetX="0" offsetY="0" rotation="0"><![CDATA[WATCH YOUR \r\nENERGY LEVEL]]></string>
+	<string id="help_text_3"			fontName="sb_jungle_stencil"	fontScale=".4"	offsetX="0" offsetY="0" rotation="0"><![CDATA[SWIPE TO SLASH ENEMIES]]></string>
+	<string id="help_text_4"			fontName="sb_jungle_stencil"	fontScale=".4"	offsetX="0" offsetY="0" rotation="0"><![CDATA[LOW ENERGY = TIRED SPONGEBOB]]></string>
+	<string id="help_text_5a"			fontName="sb_jungle_stencil"	fontScale=".4"	offsetX="0" offsetY="0" rotation="0"><![CDATA[CLICK TO WALK]]></string>
+	<string id="help_text_5b"			fontName="sb_jungle_stencil"	fontScale=".4"	offsetX="0" offsetY="0" rotation="0"><![CDATA[TAP TO WALK]]></string>
+	
+	<!-- Intro/Tutorial-->
+	<string id="intro_text_1"			fontName="popup_font_teal"	fontScale=".5"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Patrick, I'm bored...]]></string>	
+	<string id="intro_text_2"			fontName="popup_font_teal"	fontScale=".5"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Hey look! I made a new pet!]]></string>	
+	<string id="intro_text_3"			fontName="popup_font_teal"	fontScale=".5"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Out of cardboard? /r/nWow, Patrick!]]></string>	
+	<string id="intro_text_4"			fontName="popup_font_teal"	fontScale=".45"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Yeah! I made an entire jungle /r/nusing just my imaginaaation!]]></string>	
+	<string id="intro_text_5"			fontName="popup_font_teal"	fontScale=".5"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Really? Can I see?]]></string>	
+	<string id="intro_text_6"			fontName="popup_font_teal"	fontScale=".5"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Follow me!]]></string>
+	<string id="skip"					fontName="popup_font_teal"	fontScale=".8"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Skip]]></string>
+			
+	<!--Leaderboard-->
+	<string id="you"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[You: ]]></string>
+	<string id="top"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Top]]></string>	
+	<string id="leaderboard"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[High Scores]]></string>
+	<string id="submit_score"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Submit Score]]></string>	
+	<!-- Copy/Body -->
+	<string id="help_copy"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[HELP COPY]]></string>
+	<string id="watch"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[Watch 'Show Name' on]]></string>
+	<!-- Debug Text -->			
+	<string id="debugtext"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0" rotation="0"><![CDATA[THIS TEXT IS LOCALIZED!]]></string>
+	
+	<!-- Pop Ups -->
+	<string id="jelly_pop_1"			fontName="popup_font_teal"	fontScale=".7"	offsetX="0" offsetY="0" rotation="0"><![CDATA[ELECTRIFYING!]]></string>
+	<string id="jelly_pop_2"			fontName="popup_font_teal"	fontScale=".7"	offsetX="0" offsetY="0" rotation="0"><![CDATA[YOU JELLY?]]></string>
+	<string id="jelly_pop_3"			fontName="popup_font_teal"	fontScale=".7"	offsetX="0" offsetY="0" rotation="0"><![CDATA[ZAP!]]></string>
+	
+	<string id="sea_bear_pop_1"			fontName="popup_font_teal"	fontScale=".7"	offsetX="0" offsetY="0" rotation="0"><![CDATA[GRIZZLY!]]></string>
+	<string id="sea_bear_pop_2"			fontName="popup_font_teal"	fontScale=".7"	offsetX="0" offsetY="0" rotation="0"><![CDATA[BEARY GOOD!]]></string>
+	<string id="sea_bear_pop_3"			fontName="popup_font_teal"	fontScale=".7"	offsetX="0" offsetY="0" rotation="0"><![CDATA[FUR SURE!]]></string>
+	
+	<string id="sea_rhino_pop_1"		fontName="popup_font_teal"	fontScale=".7"	offsetX="0" offsetY="0" rotation="0"><![CDATA[RHINOMITE!]]></string>
+	<string id="sea_rhino_pop_2"		fontName="popup_font_teal"	fontScale=".5"	offsetX="0" offsetY="0" rotation="0"><![CDATA[HORN TO BE WILD!]]></string>
+	<string id="sea_rhino_pop_3"		fontName="popup_font_teal"	fontScale=".7"	offsetX="0" offsetY="0" rotation="0"><![CDATA[RHINORIFFIC!]]></string>
+	
+	<string id="queen_jelly_pop_1"		fontName="popup_font_teal"	fontScale=".7"	offsetX="0" offsetY="0" rotation="0"><![CDATA[ROYAL FLUSH!]]></string>
+	
+	<string id="any_pop_1"				fontName="popup_font_teal"	fontScale=".7"	offsetX="0" offsetY="0" rotation="0"><![CDATA[BEASTLY!]]></string>
+	
+	<string id="ultraEnergy"		fontName="popup_font_teal"	fontScale=".6"	offsetX="0" offsetY="0" rotation="0"><![CDATA[ULTRA ENERGY!]]></string>
+</strings>

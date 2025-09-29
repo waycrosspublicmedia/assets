@@ -1,0 +1,99 @@
+<config>
+	
+    <!-- SERVICES -->
+    <!-- Enable, disable, and configure services here -->
+    
+	<services>
+		<service type="analytics" enabled="false" id="x" />
+		<service type="canadaTracking" enabled="false" showGameTitle="Show Title: Game Title"/>
+		<service type="nickavatar" enabled="false" url="http://54.243.42.37:8080/nick/avatar" />
+		<service type="leaderboard" enabled="false" url="http://hs.nick.com/scores/" keyword="power-rangers-samurai-super-samurai" />		
+	</services>
+		
+	<!-- LOCALIZATION -->
+	      
+    <localization>
+    	<region>en</region>
+    </localization>
+    	
+	<!-- PACK DEFINITIONS -->
+	<!-- Define packs, flump folders, and tilesheets to be loaded later -->
+	      
+    <packs>
+    	<!-- EX
+    	<pack id="pack_folder1"/>
+    	<pack id="pack_folder2">
+      		<flump id="flump_folder"/>
+      		<tiles id="folder/tilesheet_id"/>
+  		</pack>
+    	-->
+    	
+    	<pack id="initial_load"/>
+    	<pack id="cutscene"/>
+   		<pack id="gameplay_universal">
+      		<flump id="flump_monsters"/>
+      		<flump id="flump_enemies"/>
+      		<flump id="flump_obstacles"/>
+   		</pack>
+		<pack id="bgs_level1"/>
+		<pack id="bgs_level2"/>
+		<pack id="bgs_level3"/>
+		<pack id="bgs_level4"/>
+		<pack id="bgs_level5">
+			<flump id="flump_rocks"/>
+		</pack>
+		
+   		<!-- END OF PACKS -->
+    </packs>
+    
+    <!-- CHUNKS -->
+    <!-- Define larger bundles of chunks and packs to load -->
+    
+    <chunks>
+    	<!-- EX
+    	<chunk id="chunk">
+			<chunk>load_part_1</chunk>
+			<pack>load_part_2</chunk>
+		</chunk>
+    	-->
+    
+    	<chunk id="initial">
+    		<pack>initial_load</pack>    		
+    	</chunk>
+    	
+    	<chunk id="gameplay">
+    		<pack>gameplay_universal</pack>
+    	</chunk>
+    	
+    	<chunk id="cutscenes">
+    		<pack>cutscene</pack>
+    	</chunk>
+    	
+    	<chunk id="stage1">
+    		<pack>bgs_level1</pack>
+    	</chunk>
+    	<chunk id="stage2">
+    		<pack>bgs_level2</pack>
+    	</chunk>
+    	<chunk id="stage3">
+    		<pack>bgs_level3</pack>
+    	</chunk>
+    	<chunk id="stage4">
+    		<pack>bgs_level4</pack>
+    	</chunk>
+    	<chunk id="stage5">
+    		<pack>bgs_level5</pack>
+    	</chunk>
+    	
+    	<chunk id="allStages">
+    		<chunk>stage1</chunk>
+    		<chunk>stage2</chunk>
+    		<chunk>stage3</chunk>
+    		<chunk>stage4</chunk>
+    		<chunk>stage5</chunk>
+    	</chunk>
+
+        <!-- END OF CHUNKS -->
+    </chunks>
+    
+</config>

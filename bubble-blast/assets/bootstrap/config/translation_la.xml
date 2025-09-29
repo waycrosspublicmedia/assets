@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's individual tag.-->
+
+<!-- <Node Attributes> -->
+<!-- id is not Optional. It tells flash which text field to change. -->
+<!-- fontScale is Optional. It allows you to customize the size of the font used in this particular field. 1 is normal. 2 is double size. .5 is half size. Defaults to 1.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the default font (specified by defaultFont).-->
+<!-- offsetX is Optional. It allows you to move the text field a certain number of pixels on the X axis. Leave it out or use 0 if you don't want to move the text. -->
+<!-- offsetY is Optional. It allows you to move the text field a certain number of pixels on the Y axis. Leave it out or use 0 if you don't want to move the text.--> 
+
+<strings defaultFont="Basic">
+	<!--Preloader-->
+	<string id="loading"				fontName="Basic"	fontScale=".25"	offsetX="0" offsetY="0"><![CDATA[Loading]]></string>
+	<!--scarys-->
+	<string id="title"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Title]]></string>
+	<string id="tap_anywhere"			fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Tap Anywhere to Play]]></string>
+	<string id="click_anywhere"			fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Click Anywhere to Play]]></string>
+	<string id="tap_anywhere_again"		fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Tap Anywhere to Play Again]]></string>
+	<string id="click_anywhere_again"	fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Click Anywhere to Play Again]]></string>	
+	<string id="tap_anywhere_skip"		fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Tap Anywhere to Skip]]></string>
+	<string id="click_anywhere_skip"	fontName="Basic"	fontScale=".55"	offsetX="0" offsetY="0"><![CDATA[Click Anywhere to Skip]]></string>	
+	<string id="play"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Play]]></string>
+	<string id="play_again"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Try Again]]></string>	
+	<string id="how_to_play"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[How to Play]]></string>
+	<string id="next"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Next]]></string>
+	<string id="back"					fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Back]]></string>
+	<string id="continue"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Continue]]></string>
+	<string id="close"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[close]]></string>
+	<string id="printable"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Printable]]></string>
+	<string id="orientation_landscape"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Please flip back to Landscape mode.]]></string>
+	<!--Game Buttons-->
+	<string id="back"					fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Back]]></string>
+	<string id="yes"					fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[Yes]]></string>
+	<string id="no"						fontName="Basic"	fontScale=".6"	offsetX="0" offsetY="0"><![CDATA[No]]></string>
+	<!--Game Menu Screen-->
+	<string id="menu"					fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Menu]]></string>
+	<!--Help Screen-->
+	<string id="help"					fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Help]]></string>
+	<!--Quit Screen-->
+	<string id="quit"					fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Quit]]></string>
+	<string id="quit_confirm_header"	fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Really Quit?]]></string>
+	<!--End Screen-->
+	<string id="game_over"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Game Over]]></string>
+	<!-- Minigames -->
+	<string id="instructions1"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Protect the Formula!]]></string>
+	<string id="instructions2"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Match the symbols!]]></string>
+	<string id="instructions3"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Bounce the ball!]]></string>
+	<!--Gameplay-->
+	<string id="level"					fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[Level]]></string>
+	<string id="score"					fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[Score:]]></string>
+	<string id="points"					fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[Points:]]></string>
+	<string id="miniscore"				fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[Score:]]></string>
+	<!-- Shop -->
+	<string id="buy"					fontName="Basic"	fontScale=".7"	offsetX="0" offsetY="0"><![CDATA[Buy]]></string>
+	<string id="shop"					fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Shop]]></string>
+	<string id="currency"				fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[$]]></string>
+	<string id="next_rank"				fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Next Rank:]]></string>
+	<string id="item_unowned"			fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[-]]></string>
+	<string id="item_name_default"		fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Item Name]]></string>
+	<string id="item_name_sword"		fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Master's Sword]]></string>
+	<string id="item_name_shield"		fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Tower Shield]]></string>
+	<string id="item_name_candle"		fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Azure Candle]]></string>
+	<string id="item_name_gloves"		fontName="Basic"	fontScale=".65"	offsetX="0" offsetY="0"><![CDATA[Gauntlets]]></string>
+	<string id="item_desc_default"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Item Description]]></string>
+	<string id="item_desc_sword_1"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Attacks deal +10% damage]]></string>
+	<string id="item_desc_sword_2"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Attacks deal +20% damage]]></string>
+	<string id="item_desc_sword_3"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Attacks deal +30% damage]]></string>
+	<string id="item_desc_shield_1"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Block 10% of damage]]></string>
+	<string id="item_desc_shield_2"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Block 20% of damage]]></string>
+	<string id="item_desc_shield_3"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Block 30% of damage]]></string>
+	<string id="item_desc_candle_1"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[10 ft light radius]]></string>
+	<string id="item_desc_candle_2"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[15 ft light radius]]></string>
+	<string id="item_desc_candle_3"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[20 ft light radius]]></string>
+	<string id="item_desc_gloves_1"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Carry light items]]></string>
+	<string id="item_desc_gloves_2"		fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Carry heavy items]]></string>
+	<!-- Achievements -->
+	<string id="achievement_unlocked"		fontName="Basic"	fontScale=".2"	offsetX="0" offsetY="0"><![CDATA[ACHIEVEMENT UNLOCKED]]></string>
+	<string id="achievement_name_default"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Achievement Name]]></string>
+	<string id="achievement_desc_default"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Achievement Description]]></string>
+	<string id="achievement_name_level2"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Level 2]]></string>
+	<string id="achievement_name_level5"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Level 5]]></string>
+	<string id="achievement_name_score100"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[100]]></string>
+	<string id="achievement_name_score1000"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[1000]]></string>
+	<string id="achievement_name_codeunlocked"	fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Code Mode]]></string>
+	<string id="achievement_name_firstplay"		fontName="Basic"	fontScale=".4"	offsetX="0" offsetY="0"><![CDATA[Baby Steps]]></string>
+	<string id="achievement_desc_level2"		fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[Reach level 2]]></string>
+	<string id="achievement_desc_level5"		fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[Reach level 5]]></string>
+	<string id="achievement_desc_score100"		fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[Get 100 points]]></string>
+	<string id="achievement_desc_score1000"		fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[Get 1000 points]]></string>
+	<string id="achievement_desc_codeunlocked"	fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[Use the code to unlock new game features]]></string>
+	<string id="achievement_desc_firstplay"		fontName="Basic"	fontScale=".3"	offsetX="0" offsetY="0"><![CDATA[Play the game once]]></string>
+	<!--Leaderboard-->
+	<string id="you"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[You:]]></string>
+	<string id="top"					fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Top]]></string>	
+	<string id="leaderboard"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[High Scores]]></string>
+	<string id="submit_score"			fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Submit Score]]></string>
+	<!-- Debug Text -->			
+	<string id="debugtext"				fontName="Basic"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[THIS TEXT IS LOCALIZED!]]></string>
+</strings>

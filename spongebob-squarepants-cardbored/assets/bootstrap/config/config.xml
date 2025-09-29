@@ -1,0 +1,46 @@
+<config>
+	
+    <!-- SERVICES -->
+    <!-- Enable, disable, and configure services here -->
+    
+	<services>
+		<service type="analytics" enabled="true" id="5493873471317145096" />
+		<service type="canadaTracking" enabled="false" showGameTitle="Show Title: Game Title"/>
+		<service type="nickavatar" enabled="false" url="http://54.243.42.37:8080/nick/avatar" />
+		<service type="leaderboard" enabled="false" url="http://hs.nick.com/scores/" keyword="power-rangers-samurai-super-samurai" />		
+	</services>
+		
+	<!-- LOCALIZATION -->
+	      
+    <localization>
+    	<region>en</region>
+    </localization>
+    	
+	<!-- PACK DEFINITIONS -->
+	<!-- Define packs, flump folders, and tilesheets to be loaded later -->
+	      
+    <packs>    	
+    	<pack id="initial_load"/>
+   		<pack id="gameplay_universal">
+      		<flump id="gameplay_asset"/>
+   		</pack>
+		
+   		<!-- END OF PACKS -->
+    </packs>
+    
+    <!-- CHUNKS -->
+    <!-- Define larger bundles of chunks and packs to load -->
+    
+    <chunks>
+    	<chunk id="initial">
+    		<pack>initial_load</pack>    		
+    	</chunk>
+    	
+    	<chunk id="gameplay">
+    		<pack>gameplay_universal</pack>
+    	</chunk>
+
+        <!-- END OF CHUNKS -->
+    </chunks>
+    
+</config>
