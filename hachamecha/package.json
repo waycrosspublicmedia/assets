@@ -1,0 +1,13 @@
+{
+    "name": "HACHAMECHA MARCHEN",
+    "main": "index.html",
+    "js-flags": "--expose-gc",
+    "additional_trust": true,
+    "window": {
+        "title": "",
+        "toolbar": false,
+        "width": 816,
+        "height": 624,
+        "icon": "icon/icon.png"
+    }
+}
