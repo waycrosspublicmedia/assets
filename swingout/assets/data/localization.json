@@ -1,0 +1,203 @@
+{
+	"home_link":"http://www.cartoonnetwork.co.uk/",
+	"copy":{
+		"QUIT":{
+			"ar":{"text":"هل أنت متأكد‏\n‏من رغبتك في الخروج؟", "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"Möchtest du \n wirklich aufhören?", "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"Are you sure you\nwant to quit?",   "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"¿Seguro que \n quieres salir?",     "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"Es-tu sûr \n de vouloir quitter?",  "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"Vuoi davvero \n uscire dal gioco?", "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"Na pewno \n chcesz zakończyć grę?", "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"Выйти из \n игpы?",                 "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"Çıkmak istediğine \n emin misin?",  "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		},
+		"SELECT_CHARACTER":{
+			"ar":{"text":"?",                     "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"?",                     "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"SELECT A CHARACTER",    "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"?",                     "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"?",                     "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"SCEGLI UN PERSONAGGIO", "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"?",                     "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"?",                     "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"?",                     "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		},
+		"PAUSED":{
+			"ar":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"PAUSED",        "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"PAUSA",         "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		},
+		"HOW_TO_PLAY":{
+			"ar":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"HOW TO PLAY",   "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"COME GIOCARE",  "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		},
+		"INSTRUCTIONS":{
+			"ar":{"text":"التعليمات",     "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"ANLEITUNG",     "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"INSTRUCTIONS",  "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"INSTRUCCIONES", "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"INSTRUCTIONS",  "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"ISTRUZIONI",    "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"WSKAZÓWKI",     "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"ИНСТРУКЦИЯ",    "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"TALİMATLAR",    "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		},
+		"INSTRUCTIONS_1_PC":{
+			"ar":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"CLICK ON THE SCREEN\nTO LAND ON THE NEXT PLATFORM",  "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		},
+		"INSTRUCTIONS_1_MOB":{
+			"ar":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"TAP ON THE SCREEN\nTO LAND ON THE NEXT PLATFORM",  "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		},
+		"INSTRUCTIONS_2":{
+			"ar":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"TRY TO LAND ON THE CENTER\nTO GET EXTRA POINTS",  "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		},
+		"INSTRUCTIONS_3":{
+			"ar":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"THE PICKUPS WILL HELP YOU\nIN YOUR JOURNEY",  "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		},
+		"INSTRUCTIONS_4":{
+			"ar":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"TAKE THE WIND IN CONSIDERATION\nWHEN JUMPING!",  "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		},
+		"TRY_AGAIN":{
+			"ar":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"TRY AGAIN...",  "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"RITENTA...",    "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		},
+		"WELL_DONE":{
+			"ar":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"WELL DONE!",    "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"BEN FATTO!",    "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		},
+		"SCORE":{
+			"ar":{"text":"?",                 "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"?",                 "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"SCORE {value}",     "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"?",                 "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"?",                 "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"PUNTEGGIO {value}", "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"?",                 "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"?",                 "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"?",                 "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		},
+		"RECORD":{
+			"ar":{"text":"?",              "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"?",              "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"BEST {value}",   "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"?",              "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"?",              "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"RECORD {value}", "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"?",              "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"?",              "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"?",              "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		},
+		"BEST_SCORE":{
+			"ar":{"text":":أفضل مسافة ركض",   "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"BESTER LAUF",       "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"BEST SCORE",        "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"MEJOR PARTIDA",     "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"MEILLEURE COURSE",  "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"MIGLIOR RISULTATO", "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"NAJLEPSZY BIEG",    "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"Лучший забег",      "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"Rekor:",            "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		},
+		"SCORE_GREAT":{
+			"ar":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"GREAT!",        "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"GRANDE!",       "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		},
+		"SCORE_PERFECT":{
+			"ar":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"PERFECT!",      "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"PERFETTO!",     "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		},
+		"SCORE_NICE":{
+			"ar":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"de":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"en":{"text":"NICE!",         "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"es":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"fr":{"text":"?",             "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"it":{"text":"BENE!",         "scale":1, "live":false, "offset":{"x":0, "y":0}},
+			"pl":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"ru":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}},
+			"tr":{"text":"?",             "scale":1, "live":true,  "offset":{"x":0, "y":0}}
+		}
+	}
+}

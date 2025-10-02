@@ -1,0 +1,24 @@
+<font>
+  <info face="yellow_score" size="37" bold="0" italic="0" charset="" unicode="" stretchH="100" smooth="1" aa="1" padding="2,2,2,2" spacing="0,0" outline="0"/>
+  <common lineHeight="56" base="31" scaleW="66" scaleH="266" pages="1" packed="0"/>
+  <pages>
+    <page id="0" file="yellow_score.png"/>
+  </pages>
+  <chars count="13">
+    <char id="49" x="2" y="2" width="23" height="34" xoffset="-2" yoffset="3" xadvance="17" page="0" chnl="15"/>
+    <char id="50" x="2" y="38" width="27" height="35" xoffset="-1" yoffset="2" xadvance="21" page="0" chnl="15"/>
+    <char id="51" x="2" y="75" width="28" height="36" xoffset="-1" yoffset="1" xadvance="22" page="0" chnl="15"/>
+    <char id="52" x="31" y="2" width="33" height="35" xoffset="-1" yoffset="3" xadvance="27" page="0" chnl="15"/>
+    <char id="53" x="2" y="113" width="29" height="36" xoffset="-1" yoffset="2" xadvance="23" page="0" chnl="15"/>
+    <char id="54" x="32" y="39" width="30" height="35" xoffset="-1" yoffset="2" xadvance="25" page="0" chnl="15"/>
+    <char id="55" x="2" y="151" width="28" height="36" xoffset="-1" yoffset="2" xadvance="22" page="0" chnl="15"/>
+    <char id="56" x="2" y="189" width="28" height="37" xoffset="-2" yoffset="0" xadvance="22" page="0" chnl="15"/>
+    <char id="57" x="2" y="228" width="30" height="36" xoffset="-1" yoffset="2" xadvance="24" page="0" chnl="15"/>
+    <char id="48" x="32" y="151" width="28" height="37" xoffset="-1" yoffset="0" xadvance="23" page="0" chnl="15"/>
+    <char id="45" x="32" y="76" width="19" height="14" xoffset="1" yoffset="12" xadvance="16" page="0" chnl="15"/>
+    <char id="46" x="32" y="92" width="15" height="15" xoffset="1" yoffset="21" xadvance="12" page="0" chnl="15"/>
+    <char id="44" x="32" y="190" width="16" height="22" xoffset="1" yoffset="22" xadvance="13" page="0" chnl="15"/>
+    <char id="32" x="0" y="0" width="0" height="0" xoffset="1" yoffset="22" xadvance="13" page="0" chnl="15"/>
+  </chars>
+  <kernings count="0"/>
+</font>

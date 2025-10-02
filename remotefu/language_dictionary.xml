@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<dictionary version='1.0' selected_language='en'>
+	<word key='produced_by_title'>
+		<translation language='en'>Produced by</translation>
+		<translation language='es'>Producido por</translation>
+		<translation language='ar'>إنتاج</translation>
+		<translation language='fr'>Produit par</translation>
+		<translation language='it'>Prodotto da</translation>
+		<translation language='pl'>Wyprodukowane przez</translation>
+		<translation language='ru'>Производство?</translation>
+		<translation language='tr'>Yapimci</translation>
+	</word>
+	<word key='developed_by_title'>
+		<translation language='en'>Developed by</translation>
+		<translation language='es'>Desarrollado por</translation>
+		<translation language='ar'>تطوير</translation>
+		<translation language='fr'>Developpe par</translation>
+		<translation language='it'>Sviluppato da</translation>
+		<translation language='pl'>Wydane przez</translation>
+		<translation language='ru'>Разработка</translation>
+		<translation language='tr'>Gelistiren</translation>
+	</word>
+	<word key='cartoon_network'>
+		<translation language='en'>Cartoon Network</translation>
+		<translation language='es'>Cartoon Network</translation>
+		<translation language='ar'>Cartoon Network</translation>
+		<translation language='fr'>Cartoon Network</translation>
+		<translation language='it'>Cartoon Network</translation>
+		<translation language='pl'>Cartoon Network</translation>
+		<translation language='ru'>Cartoon Network</translation>
+		<translation language='tr'>Cartoon Network</translation>
+	</word>
+</dictionary>

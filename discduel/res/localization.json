@@ -1,0 +1,22 @@
+{
+  "en-US": {
+
+    "credits_developed": "Produced by:",
+    "credits_produced": "Developed by",
+    "credits_music_sfx": "Music and SFX:",
+
+    "continue_game": "You have a saved game.",
+    "continue": "Continue",
+    "new_game": "New Game",
+
+    "tutorial_minigame_2": "Get enough points to\nunlock a new move.",
+
+    "draw": "DRAW",
+    "sudden_death": "SUDDEN DEATH",
+
+    "number.decimal_separator": ".",
+    "number.thousands_separator": ","
+
+  }
+
+}

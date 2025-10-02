@@ -1,0 +1,342 @@
+{
+	"direction"    : 1,
+	"world" :
+	{
+		"gravity"  : -9.82,
+		"friction" : 3.00
+	},
+	"timeMultiplier" :
+	{
+		"towers"   : 50,
+		"min"      : 1.2,
+		"max"      : 1.6
+	},
+	"avatar" :
+	{
+		"push"        : [25, 30],
+		"dampening"   : 0.30,
+		"walkSpeed"   : 4,
+		"ropePivot"   : 0.25,
+		"powerBoot"   : [11, 50],
+		"switchChara" : 10
+	},
+	"wind" :
+	{
+		"changeFrequency" : 3,
+		"range"           : [-5, 5],
+		"rangeForce"      : 3.0
+	},
+	"boot" :
+	{
+		"distance" : 25
+	},
+	"tower" :
+	{
+		"difficulty" :
+		{
+			"towers"          : 50,
+			"downgradeChance" : [0.30, 0.70]
+		},
+		"distance" :
+		{
+			"x" : [12.0, 16.0],
+			"y" : [-3.0, -5.0]
+		},
+		"movement" :
+		{
+			"towers"      : [5, 30],
+			"speedMin"    : [0.25, 0.25],
+			"speedMax"    : [0.60, 1.20],
+			"time"        : [1, 4],
+			"probability" : 0.5
+		},
+		"sprites"  :
+		[
+			["platform_1", "platform_1_b"],
+			["platform_2", "platform_2_b"],
+			["platform_3", "platform_3_b"],
+			["platform_4", "platform_4_b"],
+			["platform_5", "platform_5_b"]
+		],
+		"spritePadding"  : {"x":-40, "y":-50}
+	},
+	"powerup" :
+	[
+		{"index": 3,  "data": {"type": "points",     "value" : 5}},
+		{"index": 4,  "data": {"type": "boot"}},
+		{"index": 6,  "data": {"type": "multiplier", "value" : 2}},
+		{"index": 7,  "data": {"type": "points",     "value" : 5}},
+		{"index": 9,  "data": {"type": "points",     "value" : 10}},
+		{"index": 10, "data": {"type": "multiplier", "value" : 3}},
+		{"index": 12, "data": {"type": "life"}}
+	],
+	"score" :
+	[
+		{
+			"percentage" : 0.15,
+			"score"      : 10
+		},
+		{
+			"percentage" : 0.25,
+			"score"      : 9
+		},
+		{
+			"percentage" : 0.35,
+			"score"      : 8
+		},
+		{
+			"percentage" : 0.45,
+			"score"      : 7
+		},
+		{
+			"percentage" : 0.55,
+			"score"      : 6
+		},
+		{
+			"percentage" : 0.64,
+			"score"      : 5
+		},
+		{
+			"percentage" : 0.73,
+			"score"      : 4
+		},
+		{
+			"percentage" : 0.82,
+			"score"      : 3
+		},
+		{
+			"percentage" : 0.91,
+			"score"      : 2
+		},
+		{
+			"percentage" : 100,
+			"score"      : 1
+		}
+	],
+	"characters" :
+	{
+		"gumball":
+		{
+			"sprite"      : "gumball/gumball_",
+			"portrait"    : "char_1",
+			"spritePos"   : {"x":0, "y":15},
+			"spriteScale" : 1,
+			"handPos"     : {"x":22, "y":40},
+			"animations"  :
+			{
+				"idle"  : ["def"],
+				"walk"  : ["walk1","walk2","walk3","walk4","walk5","walk6","walk7","walk8","walk9","walk10","walk11"],
+				"hang"  : ["hang5","hang4","hang3","hang2","hang1"],
+				"hangbk": ["hang1","hang2","hang3","hang4","hang5"],
+				"fall"  : ["fall1", "fall2", "fall3", "fall4"],
+				"land"  : ["land1", "land2"]
+			},
+			"animationSpeed":
+			{
+				"walk"    : 0.25,
+				"fall"    : 0.10,
+				"hang"    : 0.2,
+				"hangbk"  : 0.2
+			}
+		},
+		"darwin":
+		{
+			"sprite"      : "darwin/darwin_",
+			"portrait"    : "char_2",
+			"spritePos"   : {"x":0, "y":15},
+			"spriteScale" : 1,
+			"handPos"     : {"x":32, "y":23},
+			"animations"  :
+			{
+				"idle"  : ["def"],
+				"walk"  : ["walk1","walk2","walk3","walk4","walk5","walk6","walk7","walk8","walk9","walk10","walk11","walk12","walk13","walk14","walk15","walk16","walk17","walk18","walk19","walk20"],
+				"hang"  : ["hang5","hang4","hang3","hang2","hang1"],
+				"hangbk": ["hang1","hang2","hang3","hang4","hang5"],
+				"fall"  : ["land1", "land2"],
+				"land"  : ["land11", "land12", "land13", "land14", "land15", "land16", "land17", "land18", "land19", "land20", "land21", "land22", "land23", "land24"]
+			},
+			"animationSpeed":
+			{
+				"land"    : 0.50,
+				"walk"    : 0.25,
+				"hang"    : 0.20,
+				"hangbk"  : 0.20
+			}
+		},
+		"molly":
+		{
+			"sprite"        : "molly/molly_",
+			"portrait"      : "molly",
+			"portraitScale" : 0.7,
+			"portraitPos"   : {"x":-20, "y":0},
+			"spritePos"     : {"x":0, "y":25},
+			"spriteScale"   : 1,
+			"handPos"       : {"x":50, "y":65},
+			"animations"    :
+			{
+				"idle"  : ["def"],
+				"walk"  : ["walk3", "walk7"],
+				"hang"  : ["hang5","hang4","hang3","hang2","hang1"],
+				"hangbk": ["hang1","hang2","hang3","hang4","hang5"],
+				"fall"  : ["land1"],
+				"land"  : ["land7", "land8", "land9", "land10"]
+			},
+			"animationSpeed":
+			{
+				"land"    : 0.10,
+				"walk"    : 0.075,
+				"hang"    : 0.25,
+				"hangbk"  : 0.25
+			}
+		},
+		"tobias":
+		{
+			"sprite"        : "tobias/tobias_",
+			"portrait"      : "tobias",
+			"portraitScale" : 1,
+			"portraitPos"   : {"x":0, "y":0},
+			"spritePos"     : {"x":0, "y":10},
+			"spriteScale"   : 1,
+			"handPos"       : {"x":42, "y":30},
+			"animations"    :
+			{
+				"idle"  : ["hang"],
+				"walk"  : ["walk1","walk2","walk3","walk4","walk5","walk6","walk7","walk8","walk9","walk10","walk11","walk12","walk13","walk14","walk15","walk16","walk17","walk18","walk19","walk20","walk21","walk22","walk23","walk24"],
+				"hang"  : ["hang5","hang4","hang3","hang2","hang1"],
+				"hangbk": ["hang1","hang2","hang3","hang4","hang5"],
+				"fall"  : ["land1"],
+				"land"  : ["land7", "land8", "land9", "land10", "land11", "land12", "land13", "land14", "land15"]
+			},
+			"animationSpeed":
+			{
+				"land"    : 0.20,
+				"walk"    : 0.25,
+				"hang"    : 0.2,
+				"hangbk"  : 0.2
+			}
+		},
+		"banana":
+		{
+			"sprite"        : "banana_joe/bananajoe_",
+			"portrait"      : "banana_joe",
+			"portraitScale" : 1,
+			"portraitPos"   : {"x":-20, "y":0},
+			"spritePos"     : {"x":-5, "y":5},
+			"spriteScale"   : 1,
+			"handPos"       : {"x":30, "y":0},
+			"animations"    :
+			{
+				"idle"  : ["hang"],
+				"walk"  : ["walk1", "walk2", "walk3", "walk4", "walk5", "walk6", "walk7", "walk8", "walk9"],
+				"hang"  : ["hang"],
+				"hangbk": ["hang"],
+				"fall"  : ["land1"],
+				"land"  : ["land17", "land18", "land19", "land20", "land21", "land22"]
+			},
+			"animationSpeed":
+			{
+				"land"    : 0.50,
+				"walk"    : 0.25
+			}
+		},
+		"anton":
+		{
+			"sprite"        : "anton/anton_",
+			"portrait"      : "anton",
+			"portraitScale" : 1,
+			"portraitPos"   : {"x":0, "y":0},
+			"spritePos"     : {"x":0, "y":0},
+			"spriteScale"   : 1,
+			"handPos"       : {"x":30, "y":-20},
+			"animations"    :
+			{
+				"idle"  : ["hang"],
+				"walk"  : ["walk1","walk2","walk3","walk4","walk5","walk6","walk7","walk8","walk9","walk10","walk11","walk12","walk13","walk14","walk15","walk16","walk17","walk18","walk19","walk20","walk21"],
+				"hang"  : ["hang"],
+				"hangbk": ["hang"],
+				"fall"  : ["land1"],
+				"land"  : ["land5", "land7", "land10"]
+			},
+			"animationSpeed":
+			{
+				"land"    : 0.50,
+				"walk"    : 0.25
+			}
+		},
+		"carmen":
+		{
+			"sprite"        : "carmen/carmen_",
+			"portrait"      : "carmen",
+			"portraitScale" : 1,
+			"portraitPos"   : {"x":0, "y":0},
+			"spritePos"     : {"x":0, "y":15},
+			"spriteScale"   : 1,
+			"handPos"       : {"x":15, "y":-8},
+			"animations"    :
+			{
+				"idle"  : ["def"],
+				"walk"  : ["walk1", "walk2", "walk3"],
+				"hang"  : ["hang"],
+				"hangbk": ["hang"],
+				"fall"  : ["hang"],
+				"land"  : ["def"]
+			},
+			"animationSpeed":
+			{
+				"land"    : 0.50,
+				"walk"    : 0.10
+			}
+		},
+		"mrsmall":
+		{
+			"sprite"        : "mrsmall/mrsmall_",
+			"portrait"      : "mrsmall",
+			"portraitScale" : 0.73,
+			"portraitPos"   : {"x":0, "y":15},
+			"spritePos"     : {"x":0, "y":40},
+			"spriteScale"   : 1,
+			"handPos"       : {"x":70, "y":120},
+			"animations"    :
+			{
+				"idle"  : ["walk15"],
+				"walk"  : ["walk1","walk2","walk3","walk4","walk5","walk6","walk7","walk8","walk9","walk10","walk11","walk12","walk13","walk14","walk15","walk16","walk17","walk18","walk19","walk20"],
+				"hang"  : ["hang5","hang4","hang3","hang2","hang1"],
+				"hangbk": ["hang1","hang2","hang3","hang4","hang5"],
+				"fall"  : ["land1"],
+				"land"  : ["land3", "land4", "land5", "land6", "land7", "land8", "land9", "land10", "land11", "land12", "land13", "land14"]
+			},
+			"animationSpeed":
+			{
+				"land"    : 0.20,
+				"walk"    : 0.30,
+				"hang"    : 0.2,
+				"hangbk"  : 0.2
+			}
+		},
+		"anais":
+		{
+			"sprite"      : "anais/anais_",
+			"portrait"    : "char_3",
+			"spritePos"   : {"x":-5, "y":20},
+			"spriteScale" : 1,
+			"handPos"     : {"x":10, "y":-35},
+			"animations"  :
+			{
+				"idle"  : ["def"],
+				"walk"  : ["walk1","walk2","walk3","walk4","walk5","walk6","walk7","walk8","walk9","walk10","walk11","walk12"],
+				"hang"  : ["swing5","swing4","swing3","swing2","swing1"],
+				"hangbk": ["swing1","swing2","swing3","swing4","swing5"],
+				"fall"  : ["land13", "land14", "land15"],
+				"land"  : ["land20", "land21", "land22", "land23", "land24"]
+			},
+			"animationSpeed":
+			{
+				"land"    : 0.5,
+				"fall"    : 0.25,
+				"walk"    : 0.25,
+				"hang"    : 0.25,
+				"hangbk"  : 0.25
+			}
+		}
+	}
+}

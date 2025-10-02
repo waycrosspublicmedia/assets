@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Created using Glyph Designer - http://www.71squared.com/glyphdesigner-->
+<font>
+    <info face="Gumball Rainbow" size="106" bold="0" italic="0" chasrset="" unicode="0" stretchH="100" smooth="1" aa="1" padding="20,20,20,20" spacing="2,2"/>
+    <common lineHeight="121" base="85" scaleW="512" scaleH="512" pages="1" packed="0"/>
+    <pages>
+        <page id="0" file="rainbow.png"/>
+    </pages>
+    <chars count="13">
+        <char id="32" x="311" y="248" width="0" height="0" xoffset="0" yoffset="94" xadvance="50" page="0" chnl="0" letter="space"/>
+        <char id="44" x="187" y="248" width="65" height="78" xoffset="6" yoffset="44" xadvance="51" page="0" chnl="0" letter=","/>
+        <char id="46" x="254" y="248" width="55" height="55" xoffset="6" yoffset="40" xadvance="41" page="0" chnl="0" letter="."/>
+        <char id="48" x="111" y="2" width="102" height="121" xoffset="6" yoffset="-26" xadvance="88" page="0" chnl="0" letter="0"/>
+        <char id="49" x="106" y="248" width="79" height="121" xoffset="6" yoffset="-26" xadvance="65" page="0" chnl="0" letter="1"/>
+        <char id="50" x="215" y="2" width="102" height="121" xoffset="6" yoffset="-26" xadvance="88" page="0" chnl="0" letter="2"/>
+        <char id="51" x="319" y="2" width="102" height="121" xoffset="6" yoffset="-26" xadvance="88" page="0" chnl="0" letter="3"/>
+        <char id="52" x="2" y="125" width="102" height="121" xoffset="6" yoffset="-26" xadvance="88" page="0" chnl="0" letter="4"/>
+        <char id="53" x="106" y="125" width="102" height="121" xoffset="6" yoffset="-26" xadvance="88" page="0" chnl="0" letter="5"/>
+        <char id="54" x="210" y="125" width="102" height="121" xoffset="6" yoffset="-26" xadvance="88" page="0" chnl="0" letter="6"/>
+        <char id="55" x="2" y="2" width="107" height="121" xoffset="6" yoffset="-26" xadvance="93" page="0" chnl="0" letter="7"/>
+        <char id="56" x="314" y="125" width="102" height="121" xoffset="6" yoffset="-26" xadvance="88" page="0" chnl="0" letter="8"/>
+        <char id="57" x="2" y="248" width="102" height="121" xoffset="6" yoffset="-26" xadvance="88" page="0" chnl="0" letter="9"/>
+    </chars>
+    <kernings count="0"/>
+</font>
