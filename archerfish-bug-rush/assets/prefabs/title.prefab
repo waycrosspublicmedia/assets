@@ -1,0 +1,68 @@
+{
+  "code": [],
+  "meta": {},
+  "elements": [
+    {
+      "id": 0,
+      "parentId": -1,
+      "name": "backdrop",
+      "type": "sprite",
+      "relativePath": "assets/sprites/SplashScreen.jpg",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 480,
+        "y": 270
+      },
+      "rotation": 0,
+      "scale": {
+        "x": "0.971659919028340081",
+        "y": "0.971659919028340081"
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 1,
+      "parentId": -1,
+      "name": "playbutton",
+      "type": "button",
+      "relativePath": "assets/spritesheets/playbutton.sheet",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 830,
+        "y": 470
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    }
+  ]
+}

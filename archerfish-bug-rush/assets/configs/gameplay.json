@@ -1,0 +1,235 @@
+{
+  "spawnPoints": [
+    "spawnRight",
+    "spawnLeft",
+    "spawnTop",
+    "spawnCaterpillar",
+    "spawnBeetle"
+  ],
+  "startSpawnTimes": {
+    "frequency": 5,
+    "variance": 3
+  },
+  "WaterLines": {
+    "front": {
+      "name": "WaterLineFront",
+      "alpha": 0.5
+    },
+    "back": {
+      "name": "WaterLineBack"
+    },
+    "tween": {
+      "distance": 250,
+      "time": 15
+    }
+  },
+  "ChrisFish": {
+    "name": "ChrisFish",
+    "spritePath": "sprites/ChrisFish.png",
+    "sheetPath": "spritesheets/chrisFish.sheet",
+    "snappingAngleRadians": 0.17,
+    "angularVelocity": 10,
+    "angles": {
+      "playerRotationClamp": 120,
+      "rotationForNozzleAlignment": 0.1
+    },
+    "animations": [
+      {
+        "name": "idle",
+        "frames": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          3,
+          4,
+          2,
+          1,
+          0
+        ],
+        "frameRate": 8,
+        "loop": true
+      },
+      {
+        "name": "fire",
+        "frames": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "loop": false,
+        "frameRate": 2.5
+      }
+    ],
+    "projectileSpawning": {
+      "spawnPointName": "projectileSpawnPoint",
+      "minSpeed": 450,
+      "maxSpeed": 950,
+      "chargeTime": 1,
+      "delay": 0.5,
+      "impactDampingFactor": 0.4,
+      "hitboxSideLength": 25,
+      "spriteAnchor": {
+        "x": 0.6,
+        "y": 0.17
+      }
+    },
+    "projectileAnimations": {
+      "impact": {
+        "name": "impact",
+        "frames": [
+          4,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "shooting": {
+        "name": "shooting",
+        "frames": [
+          10,
+          9,
+          8
+        ]
+      },
+      "fps": 20,
+      "spritesheetPath": "spritesheets/waterProjectile.sheet"
+    },
+    "projectileSounds": {
+      "shootSmall": "audio/player_fire_lowCharge",
+      "shootLarge": "audio/player_fire_highCharge"
+    }
+  },
+  "timeLimit": 100,
+  "UI": {
+    "scoreText": {
+      "name": "scoreText",
+      "fontSize": 45,
+      "font": "Bahnschrift",
+      "fontWeight": "bold",
+      "strokeColor": "#000000",
+      "strokeThickness": 10,
+      "fill": "#FFCB0D",
+      "align": "left"
+    },
+    "minScoreText": {
+      "name": "scoreText",
+      "fontSize": 35,
+      "font": "Bahnschrift",
+      "fontWeight": "bold",
+      "strokeColor": "#000000",
+      "strokeThickness": 15,
+      "fill": "#FA4C2D",
+      "align": "left"
+    },
+    "timeText": {
+      "name": "timeText",
+      "fontSize": 55,
+      "font": "Bahnschrift",
+      "fontWeight": "bold",
+      "strokeColor": "#000000",
+      "strokeThickness": 10,
+      "fill": "#FFCB0D",
+      "align": "center"
+    },
+    "targetCollisionText": {
+      "fontSize": 50,
+      "font": "Bahnschrift",
+      "fontWeight": "bold",
+      "strokeColor": "#000000",
+      "strokeThickness": 10,
+      "enemyTargetFill": "#2ecc71",
+      "friendlyTargetFill": "#e74c3c",
+      "alphaTimer": 1,
+      "positionTimer": 1.5,
+      "positionAnimation": 50
+    },
+    "tutorialText": {
+      "name": "tutorialText",
+      "fontSize": 25,
+      "font": "Arial",
+      "fontWeight": "bold",
+      "strokeColor": "#000000",
+      "strokeThickness": 7,
+      "fill": "#ffffff",
+      "align": "center"
+    },
+    "chargeMeter": {
+      "fill": "0xB1E624",
+      "projectilePhases": 3,
+      "fillShape": {
+        "left": -0.47,
+        "right": 0.35,
+        "topEmpty": -0.1,
+        "topFull": -0.3,
+        "bottomEmpty": 0.4,
+        "bottomFull": 0.4
+      }
+    }
+  },
+  "Waves": {
+    "transitionTime": 2.5,
+    "waveData": [
+      {
+        "image": "sprites/UI/Wave/wave1.png",
+        "minScore": 50,
+        "timeLimit": 61
+      },
+      {
+        "image": "sprites/UI/Wave/wave2.png",
+        "minScore": 125,
+        "timeLimit": 61
+      },
+      {
+        "image": "sprites/UI/Wave/wave3.png",
+        "minScore": 225,
+        "timeLimit": 61
+      },
+      {
+        "image": "sprites/UI/Wave/wave4.png",
+        "minScore": 350,
+        "timeLimit": 61
+      },
+      {
+        "image": "sprites/UI/Wave/wave5.png",
+        "minScore": 500,
+        "timeLimit": 61
+      },
+      {
+        "image": "sprites/UI/Wave/bonus.png",
+        "minScore": -1,
+        "timeLimit": 41
+      }
+    ],
+    "waveCompleteVOs": {
+      "priority": 10,
+      "firstWave": "audio/voice/vo_aviva_waveComplete1",
+      "cheers": [
+        "audio/voice/vo_aviva_waveComplete2",
+        "audio/voice/vo_chris_waveComplete3"
+      ],
+      "funFacts": [
+        "audio/voice/vo_chris_archerfishFunFact1",
+        "audio/voice/vo_aviva_archerfishFunFact2",
+        "audio/voice/vo_martin_archerfishFunFact3"
+      ],
+      "bonusRound": "audio/voice/vo_aviva_bonusRoundBegin",
+      "minWaveForFunFacts": 3
+    }
+  },
+  "starsScore": {
+    "scores": [
+      10,
+      100,
+      350
+    ],
+    "starBurstName": "starBurst",
+    "starEmptyBaseName": "starEmpty",
+    "starFilledBaseName": "starFilled",
+    "tweenTime": 0.25,
+    "timeBetweenStars": 0.1
+  }
+}

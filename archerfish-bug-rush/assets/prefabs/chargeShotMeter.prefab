@@ -1,0 +1,68 @@
+{
+  "code": [],
+  "meta": {},
+  "elements": [
+    {
+      "id": 1,
+      "parentId": -1,
+      "name": "Charge Meter Back",
+      "type": "sprite",
+      "relativePath": "assets/sprites/UI/Recharge_BGblack.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 187,
+        "y": 466
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 0,
+      "parentId": -1,
+      "name": "Recharge_BG",
+      "type": "sprite",
+      "relativePath": "assets/sprites/UI/Recharge_BG.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 187,
+        "y": 472
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+    "avatar": {
+        "position": {
+            "x": 111,
+            "y": 72
+        },
+        "scale": 1.01,
+
+        "poses": {
+            "default": {
+                "restFrame": 9,
+                "talkFrames": [ 5, 6, 7, 8, 9 ]
+            },
+            "handUp": {
+                "restFrame": 4,
+                "talkFrames": [ 0, 1, 2, 3, 4 ]
+            },
+            "armsOut": {
+                "restFrame": 14,
+                "talkFrames": [ 10, 11, 12, 13, 14 ]
+            }
+        },
+
+        "mouthMoveTime": {
+            "min": 0.075,
+            "max": 0.185
+        }
+    },
+
+    "screen": {
+        "onScreenPosition": {
+            "x": 48,
+            "y": 72
+        },
+
+        "offScreenPosition": {
+            "x": -240,
+            "y": 72
+        },
+
+        "moveTime": 0.75
+    },
+
+    "voPriority": 100,
+
+    "sequences": {
+        "tutorial": [
+            {
+                "action": "PlayVO",
+                "arg": "vo_aviva_tutorial1",
+                "delay": 1
+            },
+            {
+                "action": "StartMouthMovement"
+            },
+            {
+                "action": "SetPose",
+                "arg": "handUp",
+                "delay": 0.5
+            },
+            {
+                "action": "StopMouthMovement",
+                "delay": 2
+            },
+            {
+                "action": "SetPose",
+                "arg": "armsOut",
+                "delay": 0.5
+            },
+            {
+                "action": "StartMouthMovement"
+            },
+            {
+                "action": "StopMouthMovement",
+                "delay": 1
+            },
+
+
+            {
+                "action": "PlayVO",
+                "arg": "vo_aviva_tutorial2",
+                "delay": 0.5
+            },
+            {
+                "action": "SetPose",
+                "arg": "default"
+            },
+            {
+                "action": "StartMouthMovement"
+            },
+            {
+                "action": "SetPose",
+                "arg": "handUp",
+                "delay": 1.2
+            },
+            {
+                "action": "StopMouthMovement",
+                "delay": 0.6
+            },
+            {
+                "action": "StartMouthMovement",
+                "delay": 0.4
+            },
+            {
+                "action": "SetPose",
+                "arg": "default",
+                "delay": 0.2
+            },
+            {
+                "action": "StopMouthMovement",
+                "delay": 0.3
+            },
+            {
+                "action": "StartMouthMovement",
+                "delay": 0.4
+            },
+            {
+                "action": "StopMouthMovement",
+                "delay": 3.1
+            },
+            {
+                "action": "StartMouthMovement",
+                "delay": 0.4
+            },
+            {
+                "action": "StopMouthMovement",
+                "delay": 0.7
+            },
+            {
+                "action": "StartMouthMovement",
+                "delay": 0.3
+            },
+            {
+                "action": "SetPose",
+                "arg": "armsOut"
+            },
+            {
+                "action": "StopMouthMovement",
+                "delay": 0.4
+            },
+            {
+                "action": "SetPose",
+                "arg": "default",
+                "delay": 0.5
+            },
+
+
+			{
+                "action": "DesktopSubSequence",
+                "arg": [
+					{
+						"action": "PlayVO",
+						"arg": "vo_aviva_tutorial3"
+					},
+					{
+						"action": "StartMouthMovement"
+					},
+					{
+						"action": "ShowImage",
+						"arg": "sprites/tutorials/tutorial1.png"
+					},
+					{
+						"action": "StopMouthMovement",
+						"delay": 4.4
+					},
+					{
+						"action": "StartMouthMovement",
+						"delay": 0.4
+					},
+					{
+						"action": "SetPose",
+						"arg": "handUp",
+						"delay": 0.3
+					},
+					{
+						"action": "StopMouthMovement",
+						"delay": 2.1
+					},
+					{
+						"action": "SetPose",
+						"arg": "default"
+					}
+                ]
+            },
+
+			            
+            {
+                "action": "MobileSubSequence",
+                "arg": [
+					{
+						"action": "PlayVO",
+						"arg": "vo_aviva_tutorial3"
+					},
+					{
+						"action": "StartMouthMovement"
+					},
+					{
+						"action": "ShowImage",
+						"arg": "sprites/tutorials/tutorial1.png"
+					},
+					{
+						"action": "StopMouthMovement",
+						"delay": 2
+					},
+					{
+						"action": "StartMouthMovement",
+						"delay": 0.5
+					},
+					{
+						"action": "StopMouthMovement",
+						"delay": 1.3
+					},
+					{
+						"action": "StartMouthMovement",
+						"delay": 0.5
+					},
+					{
+						"action": "StopMouthMovement",
+						"delay": 0.2
+					},
+					{
+						"action": "StartMouthMovement",
+						"delay": 0.3
+					},
+					{
+						"action": "SetPose",
+						"arg": "handUp"
+					},
+					{
+						"action": "SetPose",
+						"arg": "default",
+						"delay": 1.2
+					},
+					{
+						"action": "StopMouthMovement",
+						"delay": 0.4
+					}
+                ]
+            },
+
+
+            {
+                "action": "HideImage"
+            },
+			{
+                "action": "ShowImage",
+                "arg": "sprites/tutorials/tutorial2.png"
+            },
+
+            
+            {
+                "action": "PlayVO",
+                "arg": "vo_aviva_tutorial4",
+                "delay": 0.5
+            },
+            {
+                "action": "StartMouthMovement"
+            },
+            {
+                "action": "StopMouthMovement",
+                "delay": 3.7
+            },
+
+
+            {
+                "action": "PlayVO",
+                "arg": "vo_aviva_tutorial5",
+                "delay": 0.5
+            },
+            {
+                "action": "StartMouthMovement"
+            },
+            {
+                "action": "SetPose",
+                "arg": "armsOut",
+                "delay": 2
+            },
+            {
+                "action": "SetPose",
+                "arg": "default",
+                "delay": 0.7
+            },
+            {
+                "action": "StopMouthMovement",
+                "delay": 1.4
+            },
+
+
+            {
+                "action": "PlayVO",
+                "arg": "vo_aviva_tutorial6",
+                "delay": 0.5
+            },
+            {
+                "action": "StartMouthMovement"
+            },
+            {
+                "action": "HideImage"
+            },
+            {
+                "action": "ShowImage",
+                "arg": "sprites/tutorials/tutorial3.png"
+            },
+            {
+                "action": "SetPose",
+                "arg": "handUp",
+                "delay": 0.2
+            },
+            {
+                "action": "SetPose",
+                "arg": "default",
+                "delay": 1.75
+            },
+            {
+                "action": "StopMouthMovement",
+                "delay": 1.2
+            },
+            {
+                "action": "StartMouthMovement",
+                "delay": 0.3
+            },
+            {
+                "action": "StopMouthMovement",
+                "delay": 1.2
+            },
+            {
+                "action": "StartMouthMovement",
+                "delay": 0.5
+            },
+            {
+                "action": "SetPose",
+                "arg": "armsOut"
+            },
+            {
+                "action": "StopMouthMovement",
+                "delay": 0.75
+            },
+            {
+                "action": "SetPose",
+                "arg": "default",
+                "delay": 0.5
+            },
+            {
+                "action": "HideImage"
+            }
+        ],
+
+        "replay": [
+            {
+                "action": "SetPose",
+                "arg": "armsOut",
+                "delay": 1
+            },
+            {
+                "action": "StartMouthMovement"
+            },
+            {
+                "action": "PlayVO",
+                "arg": "audio/voice/vo_aviva_replay"
+            },
+            {
+                "action": "StopMouthMovement",
+                "delay": 1.9
+            },
+            {
+                "action": "StartMouthMovement",
+                "delay": 0.4
+            },
+            {
+                "action": "SetPose",
+                "arg": "default"
+            },
+            {
+                "action": "StopMouthMovement",
+                "delay": 1.8
+            },
+            {
+                "action": "StartMouthMovement",
+                "delay": 0.5
+            },
+            {
+                "action": "SetPose",
+                "arg": "armsOut"
+            },
+            {
+                "action": "StopMouthMovement",
+                "delay": 0.7
+            },
+            {
+                "action": "SetPose",
+                "arg": "default",
+                "delay": 0.15
+            }
+        ]
+    }
+}

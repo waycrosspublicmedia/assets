@@ -1,0 +1,9 @@
+{
+  "preloadList": [
+    {
+      "name": "Bahnschrift",
+      "url": "./assets/fonts/BAHNSCHRIFT.TTF",
+      "format": "truetype"
+    }
+  ]
+}

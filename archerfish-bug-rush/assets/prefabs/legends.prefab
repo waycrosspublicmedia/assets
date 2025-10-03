@@ -1,0 +1,223 @@
+{
+  "code": [],
+  "meta": {},
+  "elements": [
+    {
+      "id": 1,
+      "parentId": -1,
+      "name": "level1",
+      "type": "sprite",
+      "relativePath": "assets/sprites/legends/level1.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 520,
+        "y": 285
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 2,
+      "parentId": -1,
+      "name": "level2",
+      "type": "sprite",
+      "relativePath": "assets/sprites/legends/level2.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 520,
+        "y": 285
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 3,
+      "parentId": -1,
+      "name": "level3",
+      "type": "sprite",
+      "relativePath": "assets/sprites/legends/level3.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 520,
+        "y": 285
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 4,
+      "parentId": -1,
+      "name": "level4",
+      "type": "sprite",
+      "relativePath": "assets/sprites/legends/level4.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 520,
+        "y": 285
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 5,
+      "parentId": -1,
+      "name": "level5",
+      "type": "sprite",
+      "relativePath": "assets/sprites/legends/level5.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 520,
+        "y": 285
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 6,
+      "parentId": -1,
+      "name": "bonus round",
+      "type": "sprite",
+      "relativePath": "assets/sprites/legends/bonus round.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 520,
+        "y": 285
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 7,
+      "parentId": -1,
+      "name": "goButton",
+      "type": "button",
+      "relativePath": "assets/spritesheets/goButton.sheet",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 210,
+        "y": 340
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    }
+  ]
+}

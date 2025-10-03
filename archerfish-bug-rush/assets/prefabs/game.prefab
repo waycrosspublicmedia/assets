@@ -1,0 +1,1093 @@
+{
+  "code": [],
+  "meta": {},
+  "elements": [
+    {
+      "id": 0,
+      "parentId": -1,
+      "name": "GameBG",
+      "type": "sprite",
+      "relativePath": "assets/sprites/GameBG.jpg",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 492.4009269999999,
+        "y": 270
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 312,
+      "parentId": -1,
+      "name": "FG_WillowFlowerBranches",
+      "type": "sprite",
+      "relativePath": "assets/sprites/FG_WillowFlowerBranches.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 308.7369852932592,
+        "y": 36.015753352656475
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 0.8797284287313967,
+        "y": 0.8797284287313967
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 313,
+      "parentId": -1,
+      "name": "FG_TreeTrunk",
+      "type": "sprite",
+      "relativePath": "assets/sprites/FG_TreeTrunk.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 76.41359729325873,
+        "y": 149.29317035265655
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 315,
+      "parentId": -1,
+      "name": "FG_Log",
+      "type": "sprite",
+      "relativePath": "assets/sprites/FG_Log.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 500.91475129325914,
+        "y": 319.9856483526568
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 13,
+      "parentId": -1,
+      "name": "spawnRight",
+      "type": "path",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 1192.8895017970406,
+        "y": 132.40606163704695
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1.8261171655518151
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": [],
+      "vertices": [
+        {
+          "x": -2.6573415000000296,
+          "y": -29.45785560926106
+        },
+        {
+          "x": -0.8857805000000099,
+          "y": 65.04181056209904
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "parentId": -1,
+      "name": "spawnLeft",
+      "type": "path",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": -323.7993015042587,
+        "y": 123.25029333903336
+      },
+      "rotation": 0.0069438779680988105,
+      "scale": {
+        "x": 1,
+        "y": 2.103945888467515
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": [],
+      "vertices": [
+        {
+          "x": 1.581262493903921,
+          "y": -11.846236054609108
+        },
+        {
+          "x": -1.9993909726724723,
+          "y": 55.37622674566518
+        }
+      ]
+    },
+    {
+      "id": 320,
+      "parentId": -1,
+      "name": "spawnTop",
+      "type": "path",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 493.64444012463287,
+        "y": -35.36753792424497
+      },
+      "rotation": -0.00489442405559215,
+      "scale": {
+        "x": 1,
+        "y": 11.120250116168215
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": [],
+      "vertices": [
+        {
+          "x": -425.17464000000047,
+          "y": -3.527725450219606
+        },
+        {
+          "x": 425.2140524370719,
+          "y": -0.8818785451429392
+        }
+      ]
+    },
+    {
+      "id": 316,
+      "parentId": -1,
+      "name": "FG_RightGrass2",
+      "type": "sprite",
+      "relativePath": "assets/sprites/FG_RightGrass2.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 885.6947690000009,
+        "y": 323.24065600000034
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 317,
+      "parentId": -1,
+      "name": "FG_RightLeaves",
+      "type": "sprite",
+      "relativePath": "assets/sprites/FG_RightLeaves.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 836.0910610000005,
+        "y": 305.5250460000003
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 318,
+      "parentId": -1,
+      "name": "FG_RightLeftDarkLeaves",
+      "type": "sprite",
+      "relativePath": "assets/sprites/FG_RightLeftDarkLeaves.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 86.7207580000003,
+        "y": 323.2406560000004
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 2585,
+      "parentId": -1,
+      "name": "spawnCaterpillar",
+      "type": "path",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 106.82934075167157,
+        "y": 153.7803866855458
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": [],
+      "vertices": [
+        {
+          "x": 9.065107765797165,
+          "y": -15.847291343909575
+        },
+        {
+          "x": 8.877097025813526,
+          "y": -15.975441499865639
+        }
+      ]
+    },
+    {
+      "id": 10981,
+      "parentId": 2585,
+      "name": "spawnBeetle",
+      "type": "path",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 1053.4819637604126,
+        "y": 202.95346605383705
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": [],
+      "vertices": [
+        {
+          "x": 1.1368683772161603e-13,
+          "y": -49.610000000000014
+        },
+        {
+          "x": 1.1368683772161603e-13,
+          "y": 49.610000000000014
+        }
+      ]
+    },
+    {
+      "id": 10980,
+      "parentId": -1,
+      "name": "beetleLandingPoint",
+      "type": "container",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 790.13,
+        "y": 267.40999999999997
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "children": []
+    },
+    {
+      "id": 5489,
+      "parentId": -1,
+      "name": "WaterLineBack",
+      "type": "sprite",
+      "relativePath": "assets/sprites/WaterLine_long.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 480.3044472799993,
+        "y": 430.73899801795403
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 1,
+      "parentId": -1,
+      "name": "ChrisFish",
+      "type": "container",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 479.9999999999998,
+        "y": 477.72713999999996
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 0.6909708720353319,
+        "y": 0.6909708720353319
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 36.26829422008109,
+        "y": -1.4109130909256464
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": [
+        {
+          "id": 14,
+          "parentId": 1,
+          "name": "projectileSpawnPoint",
+          "type": "container",
+          "locked": false,
+          "visible": true,
+          "collapseInSideBar": false,
+          "position": {
+            "x": 158.7938706651417,
+            "y": -20.234848935261994
+          },
+          "rotation": 0,
+          "scale": {
+            "x": 0.7570423138308274,
+            "y": 0.7570423138308274
+          },
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "pivot": {
+            "x": 0,
+            "y": 0
+          },
+          "code": [],
+          "meta": {},
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10979,
+      "parentId": -1,
+      "name": "WaterLineFront",
+      "type": "sprite",
+      "relativePath": "assets/sprites/WaterLine_long.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 480.29999999999967,
+        "y": 430.7370805579545
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 2468,
+      "parentId": -1,
+      "name": "ScreenOverlay",
+      "type": "sprite",
+      "relativePath": "assets/sprites/ScreenOverlay.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 480,
+        "y": 270
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 15,
+      "parentId": -1,
+      "name": "playbutton",
+      "type": "button",
+      "relativePath": "assets/spritesheets/playagainbutton.sheet",
+      "locked": true,
+      "visible": false,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 804.0601626310006,
+        "y": 457.4418520540004
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 10003,
+      "parentId": -1,
+      "name": "starBurst",
+      "type": "sprite",
+      "relativePath": "assets/sprites/Star_Burst.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 480,
+        "y": 190
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 10004,
+      "parentId": -1,
+      "name": "Chris_Win",
+      "type": "sprite",
+      "relativePath": "assets/sprites/Chris_win.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 340,
+        "y": 430
+      },
+      "rotation": -0.2,
+      "scale": {
+        "x": -0.75,
+        "y": 0.75
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 10005,
+      "parentId": -1,
+      "name": "Chris_Lose",
+      "type": "sprite",
+      "relativePath": "assets/sprites/Chris_lose.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 340,
+        "y": 450
+      },
+      "rotation": -0.1,
+      "scale": {
+        "x": -0.75,
+        "y": 0.75
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 35,
+      "parentId": -1,
+      "name": "starEmpty1",
+      "type": "sprite",
+      "relativePath": "assets/sprites/Star_Empty.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 266,
+        "y": 190
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 17,
+      "parentId": -1,
+      "name": "starEmpty2",
+      "type": "sprite",
+      "relativePath": "assets/sprites/Star_Empty.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 466,
+        "y": 170
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 71,
+      "parentId": -1,
+      "name": "starEmpty3",
+      "type": "sprite",
+      "relativePath": "assets/sprites/Star_Empty.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 680,
+        "y": 190
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 36,
+      "parentId": -1,
+      "name": "starFilled1",
+      "type": "sprite",
+      "relativePath": "assets/sprites/Star_Filled.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 266,
+        "y": 190
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 18,
+      "parentId": -1,
+      "name": "starFilled2",
+      "type": "sprite",
+      "relativePath": "assets/sprites/Star_Filled.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 466,
+        "y": 170
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 72,
+      "parentId": -1,
+      "name": "starFilled3",
+      "type": "sprite",
+      "relativePath": "assets/sprites/Star_Filled.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 666,
+        "y": 190
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "tint": 16777215,
+      "children": []
+    },
+    {
+      "id": 10001,
+      "parentId": -1,
+      "name": "scoreImage",
+      "type": "sprite",
+      "relativePath": "assets/sprites/UI/ScoreSymbol.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 55,
+        "y": 15
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0,
+        "y": 0
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "children": []
+    },
+    {
+      "id": 2586,
+      "parentId": -1,
+      "name": "scoreText",
+      "type": "container",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 205,
+        "y": 6
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "children": []
+    },
+    {
+      "id": 10002,
+      "parentId": -1,
+      "name": "timeImage",
+      "type": "sprite",
+      "relativePath": "assets/sprites/UI/TimerSymbol.png",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 800,
+        "y": 50
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "children": []
+    },
+    {
+      "id": 2468,
+      "parentId": -1,
+      "name": "pause button",
+      "type": "button",
+      "relativePath": "assets/spritesheets/pauseButton.sheet",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 670,
+        "y": 55
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "children": []
+    },
+    {
+      "id": 8642,
+      "parentId": -1,
+      "name": "unpause button",
+      "type": "button",
+      "relativePath": "assets/spritesheets/unpauseButton.sheet",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 670,
+        "y": 55
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "children": []
+    },
+    {
+      "id": 5173,
+      "parentId": -1,
+      "name": "timeText",
+      "type": "container",
+      "locked": false,
+      "visible": true,
+      "collapseInSideBar": false,
+      "position": {
+        "x": 820,
+        "y": 55
+      },
+      "rotation": 0,
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "code": [],
+      "meta": {},
+      "children": []
+    }
+  ]
+}
